@@ -14,7 +14,7 @@ Interactive notebooks for learning languages
 
 [Python Extension Pack](https://marketplace.visualstudio.com/items?itemName=donjayamanne.python-extension-pack)
 
-Optional:[How to install Windows Package Manager](/How_to_install_ Windows_Package_Manager.md)
+Optional:[How to install Windows Package Manager](/How_to_install_%20Windows_Package_Manager.md)
 
 Optional: [How to install Chocolatey Package Manager](/How_to_install_Chocolatey_Package_Manager.md) 
 
