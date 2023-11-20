@@ -25,3 +25,10 @@ Optional: [How to install Chocolatey Package Manager](/How_to_install_Chocolatey
 [How_to_install_.NET runtime ](/How_to_install_.NET_runtime.md)
 
 
+
+
+<!--https://github.com/dotnet/csharp-notebooks/tree/main
+https://github.com/dotnet/interactive/tree/main/samples/notebooks/csharp/Docs
+-->
+
+
