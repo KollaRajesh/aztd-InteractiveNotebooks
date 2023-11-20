@@ -7,4 +7,4 @@ Execute below command to install .NET 8.0 SDK
 
 ```cmd
  winget install Microsoft.DotNet.SDK.8
-``
+```
