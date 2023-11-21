@@ -23,7 +23,16 @@ Optional: [How to install Chocolatey Package Manager](/Markup/How_to_install_Cho
 
 [How_to_install_.NET runtime ](/Markup/How_to_install_.NET_runtime.md)
 
+- Run below commands in the terminals 
 
+```cmd
+dotnet tool install -g Microsoft.dotnet-interactive
+
+dotnet-interactive  jupyter install
+
+jupyter kernelspec list 
+
+```
 
 
 <!--https://github.com/dotnet/csharp-notebooks/tree/main
