@@ -13,9 +13,9 @@ Interactive notebooks for learning languages
 
 [Python Extension Pack](https://marketplace.visualstudio.com/items?itemName=donjayamanne.python-extension-pack)
 
-Optional:[How to install Windows Package Manager](/How_to_install_%20Windows_Package_Manager.md)
+Optional:[How to install Windows Package Manager](/Markup/How_to_install_%20Windows_Package_Manager.md)
 
-Optional: [How to install Chocolatey Package Manager](/How_to_install_Chocolatey_Package_Manager.md) 
+Optional: [How to install Chocolatey Package Manager](/Markup/How_to_install_Chocolatey_Package_Manager.md) 
 
 [How_to_install_python](/Markup/How_to_install_python.md)
 
@@ -23,7 +23,16 @@ Optional: [How to install Chocolatey Package Manager](/How_to_install_Chocolatey
 
 [How_to_install_.NET runtime ](/Markup/How_to_install_.NET_runtime.md)
 
+- Run below commands in the terminals 
 
+```cmd
+dotnet tool install -g Microsoft.dotnet-interactive
+
+dotnet-interactive  jupyter install
+
+jupyter kernelspec list 
+
+```
 
 
 <!--https://github.com/dotnet/csharp-notebooks/tree/main
