@@ -1,0 +1,22 @@
+[
+    { "Name": "Liam", "Gender": "Male", "Age": 23, "Address": "123 Main St.", "Postal Code": "60056"
+    },
+    { "Name": "Emma", "Gender": "Female", "Age": 32, "Address": "456 Oak Ave.", "Postal Code": "60067"
+    },
+    { "Name": "Noah", "Gender": "Male", "Age": 45, "Address": "789 Elm St.", "Postal Code": "60068"
+    },
+    { "Name": "Olivia", "Gender": "Female", "Age": 27, "Address": "321 Maple Ave.", "Postal Code": "60069"
+    },
+    { "Name": "William", "Gender": "Male", "Age": 38, "Address": "654 Pine St.", "Postal Code": "60070"
+    },
+    { "Name": "Ava", "Gender": "Female", "Age": 19, "Address": "987 Cedar Ave.", "Postal Code": "60071"
+    },
+    { "Name": "James", "Gender": "Male", "Age": 51, "Address": "246 Birch St.", "Postal Code": "60072"
+    },
+    { "Name": "Sophia", "Gender": "Female", "Age": 29, "Address": "135 Walnut Ave.", "Postal Code": "60073"
+    },
+    { "Name": "Benjamin", "Gender": "Male", "Age": 42, "Address": "864 Spruce St.", "Postal Code": "60074"
+    },
+    { "Name": "Isabella", "Gender": "Female", "Age": 24, "Address": "579 Oak Ave.", "Postal Code": "60075"
+    }
+]
