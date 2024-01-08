@@ -11,7 +11,7 @@ import pandas as pd
 import pyodbc
 import os
 server ='ServerName'
-database='DatabaseMa,e'
+database='DatabaseName'
 connection_string=f'DRIVER={{ODBC Driver 17 for SQL Server}};SERVER={server};DATABASE={database};Trusted_Connection=yes;'
 sql_conn=pyodbc.connect(connection_string)
 
