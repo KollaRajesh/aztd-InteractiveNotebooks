@@ -1,0 +1,43 @@
+#!meta
+
+{"kernelInfo":{"defaultKernelName":"sql","items":[{"aliases":[],"languageName":"sql","name":"sql"}]}}
+
+#!csharp
+
+#r "System.Data.SqlClient.dll"
+
+#!csharp
+
+using System.Data.SqlClient;
+using System.Data;
+
+#!csharp
+
+var server ="ServerName";
+var database="DatabaseName";
+var connectionString=$"Server={server};Database={database};Trusted_Connection=True;";
+
+#!csharp
+
+var query="Select top 10 * from Acitivity";
+
+#!csharp
+
+using (SqlConnection connection =new SqlConnection(connectionString) )
+{
+ connection.Open();
+ using (SqlCommand command =new SqlCommand(query,connection))
+ {
+    using (SqlDataReader reader =command.ExecuteReader())
+    {
+      while (reader.Read())
+      {
+         Console.WriteLine($"{reader.GetInt32(0)}\t{reader.GetString(1)}");
+      }
+    }
+ }
+}
+
+#!csharp
+
+Console.Read()
