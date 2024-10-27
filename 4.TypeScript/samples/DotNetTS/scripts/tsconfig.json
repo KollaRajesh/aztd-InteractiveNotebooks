@@ -1,0 +1,13 @@
+{
+ "compilerOptions": {
+    "target": "ES6",
+    "module": "amd",
+    "outDir": "./wwwroot/js",
+    "outFile": "./wwwroot/js/app.js",
+    "strict": true,
+    "esModuleInterop": true,
+    "noEmitOnError": false,
+    "noImplicitAny": true,
+    "sourceMap": true
+}
+}

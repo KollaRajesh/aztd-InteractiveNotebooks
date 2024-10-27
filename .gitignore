@@ -3,6 +3,85 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# .NET Core
+## Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+build/
+[Bb]in/
+[Oo]bj/
+
+## Visual Studio Code
+.vscode/
+
+## Visual Studio
+*.user
+*.suo
+*.sln.docstates
+*.ide
+*.pdb
+*.dll
+*.exe
+*.cache
+*.log
+*.vspscc
+*.vssscc
+*.obj
+*.ncb
+*.aps
+*.il*
+*.res
+*.tlb
+*.tlh
+*.bak
+*.cache
+*.ilk
+*.meta
+*.obj
+*.pch
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlh
+*.tli
+*.tmp
+*.tmp_proj
+*.userprefs
+*.vbw
+*.vcproj.*
+*.vcxproj.*
+*.vcxproj.filters
+*.vcxproj.user
+*.vcxproj.*.user
+*.vcxproj.*.users
+*.vcxproj.*.vcxproj.*
+*.vcxproj.*.vcxproj.filters
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# TypeScript
+*.tsbuildinfo
+*.ts
+
+# React
+build/
+dist/
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Angular
+node_modules/
+dist/
+
 # C extensions
 *.so
 
